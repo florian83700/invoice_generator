@@ -37,6 +37,15 @@ label {
     margin-top: 5px;
 }
 
+.btn_generate {
+    margin-left: -150px;
+}
+
+#crear_cuenta{
+    padding: 5px 25px;
+    background-color: blue;
+    color: white;
+}
 
 .footer_col{
     display: flex;
