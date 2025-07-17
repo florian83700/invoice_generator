@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es-do">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creación de cuenta - Generador de facturas en linea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title_center">Crear su cuenta <br/> Generador de facturas en linea.</h1>
+            <hr>
+            <nav>
+                <a href="">Inicio</a>
+                <a href="">Generar factura</a>
+                <a href="">Generar cotización</a>
+                <a href="">Contacto</a>
+            </nav>
+        </header>
+        <main>
+            <h2 class="title_center">Llenar el formulario para crear su cuenta</h2>
+            <form class="create_account">
+                <div class="row">
+                    <label for="nombre_completo">Nombre completo : *</label>
+                    <input type="text" id="nombre_completo" placeholder="Nombre completo" required/>
+                </div>
+                <div class="row">
+                    <label for="correo_electronico">Correo electronico : *</label>
+                    <input type="email" id="correo_electronico" placeholder="Correo electronico" required/>
+                </div>
+                <div class="row">
+                    <label for="fecha_nacimiento">Fecha de nacimiento : *</label>
+                    <input type="date" id="fecha_nacimiento" required onchange="check_edad()"/>
+                </div>
+                <div class="row">
+                    <label for="nombre_usuario">Nombre de usuario : *</label>
+                    <input type="text" id="nombre_usuario" placeholder="Nombre de usuario" required/>
+                </div>
+            </form>
+        </main>
+        <hr>
+        <footer>
+            <div class="footer_col">
+                <div class="footer_first_col">
+                    <h2>Generador de facturas</h2>
+                </div>
+                <div class="footer_second_col">
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Generar factura</li>
+                        <li>Generar cotización</li>
+                        <li>Contacto</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="create_account.js"></script>
+</body>
+</html>

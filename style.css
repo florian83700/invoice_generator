@@ -1,0 +1,44 @@
+.container{
+    margin: 0 auto;
+    padding: 0;
+    background-color: beige;
+    max-width: 75%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: blue;
+    font-size: large;
+    font-weight: 700;
+}
+
+.title_center {
+    text-align: center;
+    color: grey;
+}
+
+label {
+    width: 40%;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+
+.footer_col{
+    display: flex;
+    flex-direction: row;
+}
